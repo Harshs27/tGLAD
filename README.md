@@ -7,11 +7,11 @@ we introduce a novel approach for multivariate time series segmentation using co
 
 
 ## Setup  
-The `setup.sh` file contains the complete procedure of creating a conda environment to run tGLAD model. run `bash setup.sh`    
+The `setup.sh` file contains the complete procedure of creating a conda environment to run `tGLAD` model. run `bash setup.sh`    
 In case of dependencies conflict, one can alternatively use this command `conda env create --name tGLAD --file=environment.yml`.  
 
 ## demo     
-A minimalist working example of tGLAD is given in `demo_tglad.ipynb`.
+A minimalist working example of `tGLAD` is given in `demo_tglad.ipynb`.
 
 ## Citation
 If you find this method useful, kindly cite the following paper:
