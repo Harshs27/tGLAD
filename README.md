@@ -29,9 +29,20 @@ In case of dependencies conflict, one can alternatively use this command `conda 
 A minimalist working example of `tGLAD` is given in `demo_tglad.ipynb`.
 
 ## Citation
-If you find this method useful, kindly cite the following paper:
+If you find this method useful, kindly cite the following related papers:
 - `Are uGLAD? Time will tell!`: [arxiv](<link>)  
 
-@article{}
+@article{}  
+
+- `uGLAD`: Sparse graph recovery by optimizing deep unrolled networks. [arxiv](<https://arxiv.org/abs/2205.11610>)  
+
+@inproceedings{  
+shrivastava2022a,   
+title={A deep learning approach to recover conditional independence graphs},  
+author={Harsh Shrivastava and Urszula Chajewska and Robin Abraham and Xinshi Chen},  
+booktitle={NeurIPS 2022 Workshop: New Frontiers in Graph Learning},  
+year={2022},  
+url={https://openreview.net/forum?id=kEwzoI3Am4c}  
+}  
 
 
