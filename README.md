@@ -19,7 +19,7 @@ graphs. This is supposed to give higher values at the segmentation points. (C2)
 Again take a first order distance of the sequence in the previous step and then
 its absolute value to get `d2G` sequence, which further accentuates the values at
 the segmentation points. (D) Apply a threshold to zero out the smaller values of
-`d2G` and identify the segmentation blocks using an `Allocation' algorithm
+`d2G` and identify the segmentation blocks using an `Allocation' algorithm.
 
 ## Setup  
 The `setup.sh` file contains the complete procedure of creating a conda environment for `tGLAD` model. Run the command `bash setup.sh`    
