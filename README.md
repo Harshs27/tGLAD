@@ -7,18 +7,19 @@ we introduce a novel approach for multivariate time series segmentation using co
 <p align="center">
 <img src="images/tGLAD-flow.png" width="600" title="tGLAD framework for multivariate time series segmentation" />   
 </p>  
-*tGLAD framework.* (A) The time series is divided into multiple intervals
+
+**tGLAD framework.** (A) The time series is divided into multiple intervals
 by using a sliding window to create a batch of intervals. (B) Run a single
 uGLAD model in multitask learning (or batch) mode setting to recover a CI graph
 for every input batch. This gives a corresponding set of temporal CI graphs. The
 entire input is processed in a single step as opposed to obtaining a CI graph
-for each interval individually. (C1) Get the first order distance, dG sequence, of
+for each interval individually. (C1) Get the first order distance, `dG` sequence, of
 the temporal CI graphs which captures the distance between the consecutive
 graphs. This is supposed to give higher values at the segmentation points. (C2)
 Again take a first order distance of the sequence in the previous step and then
-its absolute value to get d2G sequence, which further accentuates the values at
+its absolute value to get `d2G` sequence, which further accentuates the values at
 the segmentation points. (D) Apply a threshold to zero out the smaller values of
-d2G and identify the segmentation blocks using an ‘Allocation’ algorithm
+`d2G` and identify the segmentation blocks using an `Allocation' algorithm
 
 ## Setup  
 The `setup.sh` file contains the complete procedure of creating a conda environment for `tGLAD` model. Run the command `bash setup.sh`    
