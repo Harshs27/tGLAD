@@ -30,7 +30,7 @@ A minimalist working example of `tGLAD` is given in `demo_tglad.ipynb`.
 
 ## Citation
 If you find this method useful, kindly cite the following related papers:
-- `Are uGLAD? Time will tell!`: [arxiv](<link>)  
+- `Are uGLAD? Time will tell!`: [arxiv](<https://arxiv.org/abs/2303.11647>)  
 
 @article{}  
 
