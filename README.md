@@ -26,7 +26,7 @@ The `setup.sh` file contains the complete procedure of creating a conda environm
 In case of dependencies conflict, one can alternatively use this command `conda env create --name tGLAD --file=environment.yml`.  
 
 ## demo     
-A minimalist working example of `tGLAD` is given in `demo_tglad.ipynb`.
+A minimalist working example of `tGLAD` is given in `demo_tglad.ipynb`. Refer `main.py` for running uGLAD and recovering Conditional Independence graphs. Then remaining analysis for obtaining segmentation is done in the demo notebook.  
 
 ## Citation
 If you find this method useful, kindly cite the following related papers:
