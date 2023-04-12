@@ -32,7 +32,12 @@ A minimalist working example of `tGLAD` is given in `demo_tglad.ipynb`. Refer `m
 If you find this method useful, kindly cite the following related papers:
 - Are uGLAD? Time will tell!. [arxiv](<https://arxiv.org/abs/2303.11647>)   
 
-@article{}  
+@article{imani2023uglad,  
+  title={Are uGLAD? Time will tell!},  
+  author={Imani, Shima and Shrivastava, Harsh},  
+  journal={arXiv preprint arXiv:2303.11647},  
+  year={2023}  
+}  
 
 - `uGLAD`: Sparse graph recovery by optimizing deep unrolled networks. [arxiv](<https://arxiv.org/abs/2205.11610>)  
 
